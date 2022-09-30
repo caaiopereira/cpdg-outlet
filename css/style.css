@@ -233,10 +233,11 @@ img {vertical-align: middle;}
     margin-left: 77px; /* margin-left = 77px */
   }
    .preço {
-    color: grey;
+    font-family: 'Arial Black';
+    color: black;
     font-size: 22px;
+    margin-bottom: 0px;
   }
-  
   .card button {
     border: none;
     outline: 0;
