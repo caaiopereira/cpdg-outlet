@@ -17,12 +17,13 @@
         <a href="equipe.html"><b>Quem Somos</b></a>
         <a href="contato.html"><b>Contato</b></a>
 
-      <div class="setCarrinho" onclick="mostrarCarrinho()">
+      <div class="setCarrinho" onclick="mostrarCarrinho(true)">
         <div class="quantidade"></div>
         <img src="img/carrinho.png" height="auto" width="30px">         
     </div>
-    <div onclick="mostrarCarrinho()" class="fundoCarrinho"></div>
+    <div onclick="mostrarCarrinho(true)" class="fundoCarrinho"></div>
     <div class="conteudoDoCarrinho">
+        <img class="exitCarrinho" onclick="mostrarCarrinho(false)" src="img/x.png" height="auto" width="30px">
       <h1>CARRINHO</h1>
       <div class="carrinho"></div>
     </div>

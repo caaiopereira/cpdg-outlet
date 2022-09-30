@@ -86,11 +86,12 @@ function adicionarCarrinho(e) {
         '</div>'
     })
 }
-var selecionado = true;
-function mostrarCarrinho(){
-    if (!selecionado) {
+var selecionado = false;
+function mostrarCarrinho(parm){
+    if (parm == true) {
         document.querySelector('.fundoCarrinho').classList.add('visivel')
         document.querySelector('.conteudoDoCarrinho').classList.add('carrVisivel')
+
         selecionado= true
     } else {
         document.querySelector('.fundoCarrinho').classList.remove('visivel')
