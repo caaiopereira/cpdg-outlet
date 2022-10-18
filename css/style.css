@@ -40,7 +40,7 @@
 .quantidade{
     position: absolute;
     top: 8px;
-    right: 30px;
+    right: 25px;
     display: inline-block;
     padding: 0 4px;
     min-width: 8px;
@@ -55,6 +55,15 @@
     line-height: 15.5px;
     background-color: #c00;
     color: #fff;
+    z-index: 3;
+}
+.carrinhoStyle{
+  position: absolute;
+  top: 8px;
+  right: 30px;
+  display: inline-block;
+  
+
 }
 .btnDelete{
   height: 40px;
@@ -113,7 +122,6 @@
   margin-left: 10px;
   margin-top: 15px;
 }
-
 
   @media only screen and (min-width: 360px) and (max-width: 960px){
     .topnav a {
